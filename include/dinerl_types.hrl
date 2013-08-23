@@ -4,6 +4,7 @@
 -type token() :: string().
 -type rfcdate() :: string().
 -type endpoint() :: string().
+-type region() :: string().
 
 -type field() :: {binary(), binary()|string()}.
 -type keyschema_element() :: {binary(), [field()]}.
